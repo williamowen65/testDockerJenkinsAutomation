@@ -13,6 +13,7 @@ job('NodeJS Docker example') {
                          // Manage Jenkins -> Configure Tools -> NodeJS Installations -> Name
     }
     steps {
+        input 'hello is this right?'
         dockerBuildAndPublish {
             repositoryName('islandhopper152/docker-nodejs-demo')
             tag('${GIT_REVISION,length=9}')
