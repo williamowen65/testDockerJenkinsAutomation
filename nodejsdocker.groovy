@@ -1,4 +1,4 @@
-pipelineJob('github-demo') {
+pipelineJob('read-voices-test') {
     definition {
         cpsScm {
             scm {
