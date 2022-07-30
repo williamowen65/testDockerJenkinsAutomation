@@ -13,4 +13,5 @@ pipelineJob('read-voices-test') {
     }
     triggers {
         githubPush()
+    }
 }
