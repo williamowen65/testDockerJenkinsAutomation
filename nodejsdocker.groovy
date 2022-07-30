@@ -8,7 +8,7 @@ pipelineJob('read-voices-test') {
                     }
                 }
             }
-            scriptPath('Jenkinsfile')
+            scriptPath('./Jenkinsfile')
         }
     }
     triggers {
