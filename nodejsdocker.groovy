@@ -11,4 +11,6 @@ pipelineJob('github-demo') {
             scriptPath('declarative-examples/simple-examples/environmentInStage.groovy')
         }
     }
+    triggers {
+        githubPush()
 }
