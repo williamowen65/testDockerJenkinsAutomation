@@ -4,11 +4,11 @@ pipelineJob('github-demo') {
             scm {
                 git {
                     remote {
-                        github('jenkinsci/pipeline-examples')
+                        github('https://github.com/williamowen65/read_voices')
                     }
                 }
             }
-            scriptPath('declarative-examples/simple-examples/environmentInStage.groovy')
+            scriptPath('Jenkinsfile')
         }
     }
     triggers {
