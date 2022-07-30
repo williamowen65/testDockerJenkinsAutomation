@@ -4,7 +4,7 @@ pipelineJob('read-voices-test') {
             scm {
                 git {
                     remote {
-                        github('https://github.com/williamowen65/read_voices')
+                        github('williamowen65/read_voices')
                     }
                 }
             }
